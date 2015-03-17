@@ -6,6 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
+<entry key="keep_all_columns" type="xboolean" value="false"/>
 <entry key="nrclusters" type="xint" value="500"/>
 <entry key="maxiterations" type="xint" value="99"/>
 <entry key="fuzzifier" type="xdouble" value="2.0"/>
@@ -15,10 +16,9 @@
 <entry key="1" type="xstring" value="longitude"/>
 <entry key="2" type="xstring" value="latitude"/>
 </config>
-<entry key="keep_all_columns" type="xboolean" value="false"/>
 <entry key="noise" type="xboolean" value="false"/>
-<entry key="delta" type="xdouble" value="-1.0"/>
 <entry key="lambda" type="xdouble" value="0.1"/>
+<entry key="delta" type="xdouble" value="-1.0"/>
 <entry key="memory" type="xboolean" value="true"/>
 <entry key="measures" type="xboolean" value="true"/>
 <entry key="useRandomSeed" type="xboolean" value="false"/>

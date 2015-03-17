@@ -16,9 +16,9 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="output_dimensions_selected">
-<entry key="choice" type="xboolean" value="false"/>
+<entry key="choice" type="xboolean" value="true"/>
 <entry key="doubleVal" type="xdouble" value="100.0"/>
-<entry key="intVal" type="xint" value="2"/>
+<entry key="intVal" type="xint" value="5"/>
 <config key="eigenvalues"/>
 </config>
 <config key="removeColumns_Internals">
@@ -69,12 +69,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 54406, Cols: 22"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 54406, Cols: 20"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="cdbe75f2-f89d-48d7-93ea-32cc8733ddd0"/>
+<entry key="file_store_id" type="xstring" value="ee6ee8dd-3fca-488f-b2ae-c4784743f594"/>
 </config>
 </config>

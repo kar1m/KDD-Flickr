@@ -23,9 +23,13 @@
 <config key="hover_info_columns">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xstring" value="longitude"/>
 <entry key="1" type="xstring" value="latitude"/>
+<entry key="2" type="xstring" value="PCA dimension 0"/>
+<entry key="3" type="xstring" value="PCA dimension 1"/>
+<entry key="4" type="xstring" value="PCA dimension 2"/>
+<entry key="5" type="xstring" value="Cluster"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="13"/>
@@ -86,6 +90,6 @@
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ce3f7d3f-6c06-4647-9483-e760c9724baf"/>
+<entry key="file_store_id" type="xstring" value="69307e14-d6e5-4fee-839e-0fc91944ce9b"/>
 </config>
 </config>

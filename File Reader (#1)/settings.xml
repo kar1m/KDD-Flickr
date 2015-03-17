@@ -6,37 +6,27 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="DataURL" type="xstring" value="file:/home/kevin/dev/KDD-Flickr/flickr2.csv"/>
+<entry key="DataURL" type="xstring" value="file:/Users/karim/knime-workspace/FLICKR_project/flickr2.csv"/>
 <config key="Delimiters">
 <config key="Delim0">
-<entry key="pattern" type="xstring" value="%%00010"/>
-<entry key="combineMultiple" type="xboolean" value="true"/>
-<entry key="includeInToken" type="xboolean" value="false"/>
-<entry key="returnAsToken" type="xboolean" value="true"/>
-</config>
-<config key="Delim1">
-<entry key="pattern" type="xstring" value="%%00013"/>
-<entry key="combineMultiple" type="xboolean" value="true"/>
-<entry key="includeInToken" type="xboolean" value="false"/>
-<entry key="returnAsToken" type="xboolean" value="true"/>
-</config>
-<config key="Delim2">
 <entry key="pattern" type="xstring" value="%%00009"/>
 <entry key="combineMultiple" type="xboolean" value="false"/>
 <entry key="includeInToken" type="xboolean" value="false"/>
 <entry key="returnAsToken" type="xboolean" value="false"/>
 </config>
-</config>
-<config key="Quotes">
-<config key="Quote0">
-<entry key="left" type="xstring" value="'"/>
-<entry key="right" type="xstring" value="'"/>
-<entry key="EscChar" type="xchar" value="\"/>
-<entry key="DontRem" type="xboolean" value="false"/>
+<config key="Delim1">
+<entry key="pattern" type="xstring" value="%%00010"/>
+<entry key="combineMultiple" type="xboolean" value="true"/>
+<entry key="includeInToken" type="xboolean" value="false"/>
+<entry key="returnAsToken" type="xboolean" value="true"/>
 </config>
 </config>
+<config key="Quotes"/>
 <config key="Comments"/>
-<config key="WhiteSpaces"/>
+<config key="WhiteSpaces">
+<entry key="WhiteSpace0" type="xstring" value=" "/>
+<entry key="WhiteSpace1" type="xstring" value="%%00009"/>
+</config>
 <entry key="CombineMultDelims" type="xboolean" value="false"/>
 <entry key="SkipFirstLines" type="xlong" value="0"/>
 <entry key="NewLineInQuotes" type="xboolean" value="false"/>
@@ -48,15 +38,13 @@
 <config key="RowDelims">
 <entry key="RDelim0" type="xstring" value="%%00010"/>
 <entry key="SkipEmptyLine0" type="xboolean" value="true"/>
-<entry key="RDelim1" type="xstring" value="%%00013"/>
-<entry key="SkipEmptyLine1" type="xboolean" value="true"/>
 </config>
 <config key="MissingPatterns"/>
 <entry key="globalMissPattern" type="xstring" isnull="true" value=""/>
 <entry key="DecimalSeparator" type="xchar" value="."/>
 <entry key="ThrousandsSeparator" type="xchar" value="%%00000"/>
 <entry key="ignEmtpyTokensAtEOR" type="xboolean" value="true"/>
-<entry key="acceptShortLines" type="xboolean" value="false"/>
+<entry key="acceptShortLines" type="xboolean" value="true"/>
 <entry key="uniquifyRowID" type="xboolean" value="false"/>
 <entry key="MaxNumOfRows" type="xlong" value="-1"/>
 <entry key="ColNumDetermLine" type="xint" value="2"/>
@@ -254,6 +242,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="82077019-89e5-48eb-81dd-bf1ad0607318"/>
+<entry key="file_store_id" type="xstring" value="4ad99fc0-172b-4c71-ab9d-1d0823dda3bc"/>
 </config>
 </config>
