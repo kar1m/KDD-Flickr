@@ -14,7 +14,11 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="weka.clusterers.DBSCAN: Cannot handle string attributes!"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.ext.weka37.clusterer.WekaClustererNodeFactory"/>
 <entry key="node-name" type="xstring" value="DBSCAN (3.7)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
@@ -26,21 +30,16 @@
 <entry key="weka-version" type="xstring" value="3.7"/>
 </config>
 <entry key="name" type="xstring" value="DBSCAN (3.7)"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClustererModelPortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClustererModelPortObject"/>
-<entry key="port_object_summary" type="xstring" value="DBSCAN"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="d5811ba8-048b-481c-ba79-5e611bc8e7b1"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

@@ -12,17 +12,17 @@
 </config>
 <config key="polygon_selection_lonpoints">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xdouble" value="4.844627380371094"/>
-<entry key="1" type="xdouble" value="4.825401306152344"/>
-<entry key="2" type="xdouble" value="4.824714660644531"/>
-<entry key="3" type="xdouble" value="4.839820861816406"/>
+<entry key="0" type="xdouble" value="4.757080078125"/>
+<entry key="1" type="xdouble" value="4.8882293701171875"/>
+<entry key="2" type="xdouble" value="4.920501708984375"/>
+<entry key="3" type="xdouble" value="4.7605133056640625"/>
 </config>
 <config key="polygon_selection_latpoints">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xdouble" value="45.76273291410594"/>
-<entry key="1" type="xdouble" value="45.76345144753285"/>
-<entry key="2" type="xdouble" value="45.75123512069343"/>
-<entry key="3" type="xdouble" value="45.74979772993915"/>
+<entry key="0" type="xdouble" value="45.78476372957355"/>
+<entry key="1" type="xdouble" value="45.789551885661865"/>
+<entry key="2" type="xdouble" value="45.69562905418699"/>
+<entry key="3" type="xdouble" value="45.68651588881847"/>
 </config>
 <config key="exclude_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -57,12 +57,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 16365, Cols: 15"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 54406, Cols: 15"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="57eb5ed8-aa5e-49b8-9b5a-d198fabfb3b3"/>
+<entry key="file_store_id" type="xstring" value="24e85be6-4548-4ca6-8623-382c020f1c78"/>
 </config>
 </config>
